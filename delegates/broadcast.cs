@@ -16,6 +16,12 @@ public class Broadcaster
 
     public void addHandler(Handler h)
     {
+        /**
+            * += calls Delegate.Combine(Delegate[])
+            *
+            * Delegate.Combine() returns a new delegate that combines the two delegates
+            * If the delegates array contains entries that are null, those entries are ignored.
+            */
         _handlers += h;
     }
     
