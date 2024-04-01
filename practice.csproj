@@ -8,4 +8,8 @@
     <RootNamespace>practice.pro.sharp.e11</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="3.2.2" />
+  </ItemGroup>
+
 </Project>
